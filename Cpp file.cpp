@@ -15,7 +15,7 @@ int findSmallest(int arr[], int size) {
 }
 
 int main() {
-    int numbers[] = {5, 2, 8, 1, 9, -3, 4};
+    int numbers[] = {27, 13, -57, 73, 14, -17, 46};
     int size = sizeof(numbers) / sizeof(numbers[0]);
 
     cout << "Smallest number: " << findSmallest(numbers, size) << endl;
